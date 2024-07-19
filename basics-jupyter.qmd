@@ -1,0 +1,53 @@
+---
+title: Matplotlib Demo
+author: Norah Smith
+date: 5/22/2021
+execute:
+  enabled: true
+format:
+  html:
+    code-fold: true
+  gfm:
+    code-fold: true
+  ipynb:
+    code-fold: false
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.3
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
+---
+
+```{python}
+#| label: fig-polar
+#| fig-cap: A line plot on a polar axis
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+```{python}
+print('hello, world')
+```
+
+```{python}
+testvar='aaa'
+```
+
+```{python}
+print(f'{testvar=}')
+```
