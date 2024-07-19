@@ -10,7 +10,7 @@ pip install quarto
 
 <https://quarto.org/docs/tools/jupyter-lab.html#plain-text-editing>
 
-- execute all cells and render qmd to md/ipynb/html defined in YAML header
+- execute all cells and render qmd to md/ipynb/html defined in qmd's YAML header
 
     ```yaml
     format:
