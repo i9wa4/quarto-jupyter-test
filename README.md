@@ -1,4 +1,4 @@
-# quarto-jupyter-sandbox
+# quarto-jupyter-test
 
 ## Install quarto
 
